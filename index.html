@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:github" content="https://github.com/tokyojack">
+
+    <title>Health Counter</title>
+    <meta name="description" content="A health counter made for Magic: The Gathering">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/button.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="player1 side">
+        <div class="health health__player1">
+            <button class="ui green button increaseHealth__player1">+</button>
+            <p class="healthCounter__player1">20</p>
+            <button class="ui red button decreaseHealth__player1">-</button>
+        </div>
+    </div>
+
+    <div class="player2 side">
+        <div class="health health__player2">
+            <button class="ui green button increaseHealth__player2">+</button>
+            <p class="healthCounter__player2">20</p>
+            <button class="ui red button decreaseHealth__player2">-</button>
+        </div>
+    </div>
+
+    <!--<script src="appES5.js"></script>-->
+    <script src="appES6.js"></script>
+</body>
+
+</html>
